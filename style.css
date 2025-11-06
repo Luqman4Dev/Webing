@@ -25,6 +25,8 @@ body{
   min-height:100vh;
   padding:18px;
   letter-spacing:0.6px;
+  .card, .topbar, .bottom-nav { max-width: 420px; }
+
 }
 
 /* CRT overlay */
