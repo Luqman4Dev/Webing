@@ -10,6 +10,8 @@
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: auto;
   text-rendering: optimizeLegibility;
+  @media (min-width: 901px) {
+  html { font-size: 18px; }
 }
 
 *{box-sizing:border-box}
