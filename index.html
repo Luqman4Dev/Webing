@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pi66 — Retro Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="crt">
+  <header class="topbar">
+    <div class="profile">
+      <div class="avatar" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="48" height="48" class="pixel-avatar">
+          <rect width="64" height="64" fill="#03110b"/>
+          <g fill="#0f8f3a"><rect x="8" y="6" width="48" height="48" rx="6"/></g>
+          <g fill="#06120a"><circle cx="32" cy="26" r="10"/><rect x="18" y="36" width="28" height="8" rx="3"/></g>
+        </svg>
+      </div>
+      <div class="handle">Pi66</div>
+    </div>
+    <div class="views">
+      <svg class="eye" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 6C7 6 3.4 9.1 2 12c1.4 2.9 5 6 10 6s8.6-3.1 10-6c-1.4-2.9-5-6-10-6zm0 9a3 3 0 110-6 3 3 0 010 6z"/></svg>
+      <div class="count" id="viewCount">1750</div>
+    </div>
+  </header>
+  <main class="card">
+    <h1 class="greeting">Heyo :3</h1>
+    <section class="intro">
+      <p>Hey there! I'm <span class="accent">Pixel</span>, a developer with a passion for Rust, Linux, and retro computing aesthetics.</p>
+      <button id="toggleMore" class="linkish">see more</button>
+      <div id="moreText" class="more hidden"><p>I build small tools and tinkering projects. I love minimal systems (Void/Arch), terminal UI, and colorful ASCII art. This is a demo profile page inspired by a retro, neon green terminal aesthetic.</p></div>
+    </section>
+    <hr class="sep" />
+    <section class="skills">
+      <div class="section-title"><span class="dot"></span> Skills</div>
+      <div class="two-col">
+        <div><div class="sub-title">Languages:</div><ul class="list"><li>&gt; C</li><li>&gt; Rust</li><li>&gt; Python</li><li>&gt; JS/TS</li><li>&gt; ...</li></ul></div>
+        <div><div class="sub-title">Technologies:</div><ul class="list"><li>&gt; Void Linux</li><li>&gt; Flask</li><li>&gt; SQL</li><li>&gt; Tailwindcss</li><li>&gt; ...</li></ul></div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="section-title"><span class="dot"></span> Current Projects</div>
+      <ul class="list projects-list">
+        <li>&gt; <strong>Pino-rs</strong>: Notification app</li>
+        <li>&gt; <strong>PAnime</strong>: A big Anime Streaming project</li>
+        <li>&gt; <strong>Walrs</strong>: Linux colorscheme generator from wallpaper</li>
+      </ul>
+    </section>
+    <section class="contact">
+      <div class="section-title"><span class="dot"></span> Contact</div>
+      <p>Feel free to reach out to me on:</p>
+      <ul class="list"><li>&gt; Discord: <span class="accent">@pi66</span></li><li>&gt; GitHub: <span class="accent">@pixe12175</span></li></ul>
+    </section>
+    <section class="thanks">
+      <div class="section-title"><span class="dot"></span> Special Thanks</div>
+      <p class="muted">&gt; 6z7y : for testing the project, pointing out glitches, and providing valuable suggestions</p>
+    </section>
+    <hr class="sep" />
+    <footer class="notes"><p>// Loves Linux & Retro Themes</p><p>// Let's all love lain</p></footer>
+  </main>
+  <nav class="bottom-nav">
+    <a href="index.html" class="nav-link active">home</a>
+    <a href="tools.html" class="nav-link">tools</a>
+    <a href="more.html" class="nav-link">more</a>
+    <a href="gaza.html" class="nav-link">gaza</a>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>
